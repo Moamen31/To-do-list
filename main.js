@@ -1,5 +1,5 @@
 let taskInput = document.querySelector(".task-input input")
-let submitTask = document.querySelector(".task-input button")
+let submitTask = document.querySelector(".submit")
 let taskBox = document.querySelector(".task-box")
 
 
