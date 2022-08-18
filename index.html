@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/todolist.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="task-input">
+            <i class="fa-solid fa-align-left"></i>
+            <input type="text" placeholder="Add new task">
+            <button class="submit" type="submit">Add</button>
+        </div>
+    <div class="controlls">
+        <ul class="filters">
+            <li id="all" class="active">All</li>
+            <li id="pending">Pending</li>
+            <li id="completed">Completed</li>
+        </ul>
+        <button class="clear">Clear All</button>
+    </div>
+    <ul class="task-box"></ul>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
