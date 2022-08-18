@@ -81,6 +81,13 @@ body {
     padding: 10px 20px 18px;
     border-bottom: 1px solid #ccc;
 }
+@media (max-width:767px) {
+    .controlls{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+}
 
 .controlls .filters{
     display: flex;
@@ -111,6 +118,13 @@ body {
     cursor: pointer;
     font-size: 13px;
 }
+
+@media (max-width:767px) {
+    .controlls .clear{
+        width:50%;
+    }
+}
+
 .task-box{
     margin: 13px 0 0;
     padding: 0 25px 0 20px;
